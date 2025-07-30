@@ -11,4 +11,9 @@ def size(cms):
 assert(size(37) == 'S')
 assert(size(40) == 'M')
 assert(size(43) == 'L')
-print("All is well (maybe!)")
+
+
+assert(size(38) == 'M')  
+
+print("Tests ran (but some may fail, exposing bugs)")
+
